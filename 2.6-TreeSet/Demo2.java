@@ -18,8 +18,7 @@ public class Test {
 			Iterator<Integer> it = ts.iterator();		
 			Integer nextItem = null;
 			while(it.hasNext()) {
-				nextItem = it.next();
-				System.out.print(nextItem + " ");
+				System.out.print(it.next() + " ");
 			} 
 			System.out.println();
 		}
