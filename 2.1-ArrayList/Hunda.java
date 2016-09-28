@@ -19,8 +19,9 @@ public class Test{
 	      System.out.println("Contents of al: " + al);
 	      // Remove elements from the array list
 	      al.remove("F");
+	      al.remove(1);
 	      al.remove(2);
-	      System.out.println("Size of al after deletions: " + al.size());
+	      System.out.println("After removal, size of al after deletions: " + al.size());
 	      System.out.println("Contents of al: " + al);
 	      al.add("Hello");
 	      al.add(17.2);
@@ -51,11 +52,12 @@ public class Test{
 Initial size of al: 0
 Size of al after additions: 7
 Contents of al: [1, A2, String, o, 2, 123, F]
-Size of al after deletions: 5
-Contents of al: [1, A2, o, 2, 123]
-Contents of al: [1, A2, o, 2, 123, Hello, 17.2, Hello, null]Size : 9
+After removal, size of al after deletions: 4
+Contents of al: [1, String, 2, 123]
+Contents of al: [1, String, 2, 123, Hello, 17.2, Hello, null]Size : 8
 Ankur
 Ajeet
 Harsh
 John
+
 */
