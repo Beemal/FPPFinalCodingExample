@@ -184,22 +184,7 @@ public class MyStringLinkedList {
 		System.out.println(str);
 	}
 	
-	public class Node {
-		String value;
-		Node next;
-		Node previous;
-
-		Node(Node previous, String value, Node next) {
-			this.previous = previous;
-			this.value = value;
-			this.next = next;
-		}
-
-		public String toString() {
-			return value;
-		}
-	}
-
+	
 	public Object getLast() {
 		if (header == null)
 			return null;
